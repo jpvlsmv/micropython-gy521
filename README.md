@@ -7,10 +7,10 @@ I needed to conda install virtualenv and cookiecutter in the root Conda env.
 Probably useful in general, so they can be global.
 
 ## Plan:
-Make it work
-Make it as pythonic as possible
-Make it as async as possible
-Make it as light as possible
+* Make it work
+* Make it as pythonic as possible
+* Make it as async as possible
+* Make it as light as possible
 
 ## Sources:
 (https://github.com/larsks/py-mpu6050) for the idea.  No code reused.
