@@ -24,3 +24,24 @@ Do I need to run with native code and the Invensense EmbeddedMotionDrive?
 * (https://travis-ci.org/jpvlsmv/micropython-gy521) [![Build Status](https://travis-ci.org/jpvlsmv/micropython-gy521.svg?branch=master)](https://travis-ci.org/jpvlsmv/micropython-gy521)
 * (https://readthedocs.org/projects/micropython-gy521/) [![Documentation Status](https://readthedocs.org/projects/micropython-gy521/badge/?version=latest)](http://micropython-gy521.readthedocs.io/en/latest/?badge=latest)
 * (https://pyup.io/account/repos/github/jpvlsmv/micropython-gy521/) [![Updates](https://pyup.io/repos/github/jpvlsmv/micropython-gy521/shield.svg)](https://pyup.io/repos/github/jpvlsmv/micropython-gy521/)
+
+
+### Some dev notes about my hardware:
+```
+Label GPIO || GPIO Label
+  3V3      ||        Vin 
+  GND      ||        GND
+   TX    1 ||         EN
+   RX    3 ||        RST
+   D8   15 ||        3V3
+   D7   13 ||        GND
+   D6   12 ||    6   CLK
+   D5   14 ||    7  MISO
+  GND      ||   11    CS
+  3V3      ||    8  MOSI
+   D4    2 ||    9   
+   D3    0 ||   10
+   D2    4 ||   --
+   D1    5 ||   --
+   D0   16 ||  ADC
+```
