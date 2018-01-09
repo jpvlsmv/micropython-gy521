@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from ustruct import pack
+from struct import pack
 
 """Main module."""
 # SDA=Pin(5)
