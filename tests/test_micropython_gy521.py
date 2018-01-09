@@ -6,7 +6,7 @@
 import pytest
 
 
-from micropython_gy521 import micropython_gy521
+from micropython_gy521 import gy521
 
 
 @pytest.fixture
